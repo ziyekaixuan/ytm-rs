@@ -1,0 +1,23 @@
+name: Sync fork with upstream
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync fork
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.repos.mergeUpstream({
+              owner: 'ziyekaixuan',
+              repo: 'ytm-rs',
+              branch: 'main'
+            });
