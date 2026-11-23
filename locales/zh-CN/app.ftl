@@ -2,4 +2,4 @@
 
 # This language's name in itself (Português, Español, Bahasa Indonesia), for the
 # language picker in Settings.
-language-name = 简体中文
+language-name = 中文

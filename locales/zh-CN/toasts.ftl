@@ -1,4 +1,7 @@
 ### The short notices at the bottom of the window.
 
 # After unliking several songs at once; Undo sits beside it.
-likes-removed = 已取消 { $count } 个赞
+likes-removed = { $count ->
+    [one] 已取消喜欢 { $count } 首歌曲
+   *[other] 已取消喜欢 { $count } 首歌曲
+}
