@@ -49,3 +49,10 @@ player-play-next = 播放下一个
 player-start-radio = 开始广播
 player-go-to-album = 前往相册
 player-go-to-artist = 前往艺术家
+
+player-time-show-left = { $time }。显示剩余时间
+player-time-show-length = { $time }。显示歌曲时长
+player-sleep-timer = 睡眠定时
+player-sleep-off = 关闭
+player-sleep-minutes = { $minutes } 分钟
+player-sleep-song-end = 歌曲结束时
