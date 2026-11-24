@@ -210,6 +210,9 @@ settings-background-brightness = Helligkeit des Hintergrunds
 settings-background-brightness-desc = Macht das Cover hinter der aktuellen Wiedergabe und den Seiten heller oder dunkler. 100 % entspricht dem Design.
 settings-brighter = Heller
 settings-darker = Dunkler
+settings-flat-background = Flacher Hintergrund
+settings-flat-background-desc = Eine Farbe hinter den Seiten und „Jetzt läuft“, ohne Albumcover und ohne Farbverlauf.
+settings-flat-background-colour = Hintergrundfarbe
 settings-frosted-glass = Milchglas
 settings-frosted-glass-desc = In Designs mit diesem Effekt wird der Hintergrund von Menüs und schwebenden Leisten weichgezeichnet. Ausgeschaltet sind sie etwas undurchsichtiger.
 settings-pulse-with-the-music = Im Takt pulsieren
@@ -374,6 +377,10 @@ settings-update-downloading = { $version } wird geladen… { $percent } %
 settings-update-ready = Version { $version } ist bereit. Die Installation startet beim Schließen von ytm-rs.
 settings-update-available = Version { $version } ist verfügbar. { $step }
 settings-update-failed = Update-Suche fehlgeschlagen: { $error }
+settings-update-rate-limited = { $minutes ->
+    [one] GitHub begrenzt gerade die Update-Suche aus deinem Netzwerk. Versuch es in { $minutes } Minute erneut.
+   *[other] GitHub begrenzt gerade die Update-Suche aus deinem Netzwerk. Versuch es in { $minutes } Minuten erneut.
+}
 settings-version = Version { $version }.
 settings-automatic-updates-desc-packaged = Sucht nach neuen Versionen und meldet, wenn eine verfügbar ist.
 settings-automatic-updates-desc = Lädt neue Versionen im Hintergrund und installiert sie beim Schließen der App.
